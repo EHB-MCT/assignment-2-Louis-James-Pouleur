@@ -1,10 +1,10 @@
-#Progress Log
+# Progress Log
 
-##Overview
+## Overview
 
 This file tracks the development progress of the Interactive Handtracking and storing in a Database project, including achievements, updates, challenges, and solutions.
 
-##Updates
+## Updates
 
 **22-11-2024**
 
