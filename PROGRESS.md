@@ -38,3 +38,9 @@ This file tracks the development progress of the Interactive Handtracking and st
 - Tested different types of visualising the data.
 - applied conventions to session_trigger component, Visualising_DATA, Post_To_Your_Database and Handtracking.
 - Progress.md and Conventions.md documentation added and updated.
+
+**28-12-2024**
+
+- Created DOCUMENTATION.md
+- Merged Development branch in to the Main branch
+- Refactor Touchdesigner file

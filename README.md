@@ -19,7 +19,7 @@ With these steps your hands can be tracked and animations will be triggered in R
 
 ## For Aggregated data using a Database
 
-5. Link The HANDTRACKING OUTs to the corresponding CHOPs, these will be linked to the rest of the Notes.
+5. Link The HANDTRACKING OUTs to the corresponding CHOPs, these will be linked to the rest of the Nodes.
 6. In the POST_TO_YOUR_DATABASE Container, in the post_json DAT you can change the url of your Database and set the apikey.
 7. change the convert and channelJSON DATs to your needs.
 8. to run the script right click the post_json and press Run Scripts
@@ -35,7 +35,11 @@ If you want the handtracking to Post each time a hand is placed in a new zone yo
 SELECT "session_id" FROM "TD_Interactivity";
 SELECT \* FROM "TD_Interactivity" WHERE session_id = '1';
 
-You can extract data from each session. 11. Export/Copy the table on your machine 12. In the Touchdesigner File you can go to the blue **DATA VISUALING** section and import/paste your JSON in the JSON_TABLE DAT 13. In the Visualising_DATA Container you can change things depending on your needs of visualasation. 14. in the hands_1280x720 TOPs you can import an other image to your liking and change it's background color in the Containers linked after it.
+You can extract data from each session. 
+11. Export/Copy the table on your machine 
+12. In the Touchdesigner File you can go to the blue **DATA VISUALING** section and import/paste your JSON in the JSON_TABLE DAT 
+13. In the Visualising_DATA Container you can change things depending on your needs of visualasation. 
+14. in the hands_1280x720 TOPs you can import an other image to your liking and change it's background color in the Containers linked after it.
 
 ## Folder Structure
 
