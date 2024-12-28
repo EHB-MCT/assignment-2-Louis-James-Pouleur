@@ -8,7 +8,7 @@ This Touchdesigner project is a Interactive Hand Tracking project where players 
 
 1. If you don't have Mediapipe installed yet on your machine you'ill need to instal it first in your components.
 2. If you don't have Resolume Arena you can download a free version on their website.
-3. Open de Touchdesigner file `INTERACTIVE_DATA`.
+3. Open de Touchdesigner file `INTERACTIVE_DATA.X.toe`.
 4. Drag your MediaPipe from your components and turn off: Detect Faces, Detect facial landmarks, Detect poses, Detect objects, Classify images and Detect image embeddings.
 5. Connect the normalized_data out to the HANDTRACKING Container.
 
@@ -36,6 +36,7 @@ SELECT "session_id" FROM "TD_Interactivity";
 SELECT \* FROM "TD_Interactivity" WHERE session_id = '1';
 
 You can extract data from each session. 
+
 11. Export/Copy the table on your machine 
 12. In the Touchdesigner File you can go to the blue **DATA VISUALING** section and import/paste your JSON in the JSON_TABLE DAT 
 13. In the Visualising_DATA Container you can change things depending on your needs of visualasation. 
