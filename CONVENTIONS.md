@@ -75,7 +75,7 @@ TouchDesigner allows you to color-code nodes to visually categorize their purpos
 
 - Set an Appropriate resolution CHOP for TOPs to avoid processing unnesseraily high resolutions.
 
-## Modular and Reasable Design
+## Modular and Reusable Design
 
 1. **Encapsulation**
 
